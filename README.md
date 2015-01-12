@@ -10,16 +10,18 @@ To use the Dogescript to JS compiler in shell:
 
 ```
 npm install -g dogescript
+git clone git@github.com:deniseyu/dogebuzz.git
+cd dogebuzz
 ```
 
 then from your project directory,
 
 ```
-dogescript filename.djs
+dogescript lib/dogebuzz.djs
 ```
 
 To write the output to a new file, wow such compile
 
 ```
-dogescript filename.djs > newfilename.js
+dogescript lib/dogebuzz.djs > lib/dogebuzz.js
 ```
